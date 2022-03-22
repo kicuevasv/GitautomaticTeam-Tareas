@@ -12,16 +12,16 @@ Tarea 3 - Comandos básicos de gcloud
 Una cuenta de servicio es un tipo especial de cuenta que usa una carga de trabajo de aplicación o procesamiento, en lugar de una persona. Las cuentas de servicio se administran mediante la administración de identidades y accesos (IAM).
 
 ## Compute Engine usa dos tipos de cuentas de servicio:
-1. Cuentas de servicio administradas por el usuario
-Las cuentas de servicio administradas por el usuario incluyen cuentas de servicio nuevas que creas explícitamente y la cuenta de servicio predeterminada de Compute Engine.
+### 1. Cuentas de servicio administradas por el usuario
+     Las cuentas de servicio administradas por el usuario incluyen cuentas de servicio nuevas que creas explícitamente y la cuenta de servicio predeterminada de Compute Engine.
 
-Cuentas de servicio nuevas
-Usa IAM para crear y administrar tus propias cuentas de servicio. Después de crear una cuenta, otórgale roles de IAM y configura instancias para que se ejecuten como cuenta de servicio. Las aplicaciones que se ejecutan en instancias con la cuenta de servicio adjunta pueden usar las credenciales de la cuenta para realizar solicitudes a otras API de Google.
+#### Cuentas de servicio nuevas
+     Usa IAM para crear y administrar tus propias cuentas de servicio. Después de crear una cuenta, otórgale roles de IAM y configura instancias para que se ejecuten como cuenta de servicio. Las aplicaciones que se ejecutan en instancias con la cuenta de servicio adjunta pueden usar las credenciales de la cuenta para realizar solicitudes a otras API de Google.
 
-2. Cuentas de servicio administradas por Google
-Estas cuentas de servicio (a veces conocidas como agentes de servicio) las crea y administra Google, y se asignan a tu proyecto automáticamente. Estas cuentas representan diferentes servicios de Google y cada cuenta tiene cierto nivel de acceso a tu proyecto de Google Cloud
+### 2. Cuentas de servicio administradas por Google
+    Estas cuentas de servicio (a veces conocidas como agentes de servicio) las crea y administra Google, y se asignan a tu proyecto automáticamente. Estas cuentas representan diferentes servicios de Google y cada cuenta tiene cierto nivel de acceso a tu proyecto de Google Cloud
 
-Agente de servicios de las API de Google
-Además de la cuenta de servicio predeterminada, todos los proyectos habilitados con Compute Engine tienen un agente de servicio de las API de Google, que se puede identificar mediante el correo electrónico:
+#### Agente de servicios de las API de Google
+     Además de la cuenta de servicio predeterminada, todos los proyectos habilitados con Compute Engine tienen un agente de servicio de las API de Google, que se puede identificar mediante el correo electrónico:
 
 Al final, añadir las URLs de las cuales obtuvieron la información.
