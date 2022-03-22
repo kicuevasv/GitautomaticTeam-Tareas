@@ -32,7 +32,7 @@ Una cuenta de servicio es un tipo especial de cuenta que usa una carga de trabaj
 
 #### Agente de servicio de Compute Engine
      Todos los proyectos que habilitaron la API de Compute Engine tienen un agente de servicio de Compute Engine, que tiene el siguiente correo electrónico:
-     ### service-PROJECT_NUMBER@compute-system.iam.gserviceaccount.com
+     ###service-PROJECT_NUMBER@compute-system.iam.gserviceaccount.com
      Esta cuenta de servicio está diseñada específicamente para que Compute Engine realice las tareas de servicio en tu proyecto. Se basa en la Política de IAM 
 
      
