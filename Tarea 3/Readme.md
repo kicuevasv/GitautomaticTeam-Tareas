@@ -14,8 +14,27 @@ URLs información
 
 **https://cloud.google.com/sdk/gcloud/reference/compute/instances/list**
 
-
 ### 2.- Listar IP’s en uso, existentes o reservadas
+
+Para enumerar las direcciones de un proyecto:
+
+**gcloud compute addresses list**
+
+Para enumerar los URI de todas las direcciones en un proyecto:
+
+**gcloud compute addresses list --uri**
+
+Para enumerar todas las direcciones globales en un proyecto:
+
+**gcloud compute addresses list --global**
+
+Para enumerar todas las direcciones de una region :
+
+**gcloud compute addresses list --filter=region:us-central1**
+
+URLs informacion:
+**https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list**
+
 
 ### 3.- Listar buckets disponibles
 
@@ -129,3 +148,5 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 2.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419#google-managed
 
 3.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419
+
+4.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
