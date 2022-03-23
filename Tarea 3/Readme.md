@@ -30,6 +30,8 @@ Para enumerar las direcciones de un proyecto:
 
 **gcloud compute addresses list**
 
+<img src="g_list.png" width="450">
+
 Para enumerar los URI de todas las direcciones en un proyecto:
 
 **gcloud compute addresses list --uri**
