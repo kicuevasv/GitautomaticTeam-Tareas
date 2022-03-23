@@ -3,9 +3,9 @@ Tarea 3 - Comandos básicos de gcloud
 
 1.- Listar Compute Engine
 
-## Comando
+Comando
 
-gcloud compute instances list
+**gcloud compute instances list**
 
 
 2.- Listar IP’s en uso, existentes o reservadas
