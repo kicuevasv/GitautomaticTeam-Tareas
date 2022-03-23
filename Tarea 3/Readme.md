@@ -8,7 +8,7 @@ Comando
 
 **gcloud compute instances list**
 
-<img src="Comando1.PNG width="450">
+<img src="Comando1.PNG" width="450">
 
 URLs información
 
