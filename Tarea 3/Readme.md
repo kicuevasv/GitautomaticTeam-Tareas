@@ -7,6 +7,10 @@ Comando
 
 **gcloud compute instances list**
 
+URLs información
+
+**https://cloud.google.com/sdk/gcloud/reference/compute/instances/list**
+
 
 2.- Listar IP’s en uso, existentes o reservadas
 
