@@ -8,10 +8,6 @@
 
 4.- Listar Service Accounts existentes en un proyecto
 
-=======
-**Tarea 3 - Comandos básicos de gcloud**
-===============================================
-
 ### 1.- Listar Compute Engine
 
 Comando
@@ -19,10 +15,6 @@ Comando
 **gcloud compute instances list**
 
 <img src="Comando1.PNG" width="450">
-
-URLs información
-
-**https://cloud.google.com/sdk/gcloud/reference/compute/instances/list**
 
 ### 2.- Listar IP’s en uso, existentes o reservadas
 
@@ -151,13 +143,17 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 ### Fuentes de Información
 
 #### URLs  Service Accounts existentes en un proyecto
-1.- https://cloud.google.com/data-catalog/docs/concepts/iam?hl=es
 
-2.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419#google-managed
+1.- https://cloud.google.com/sdk/gcloud/reference/compute/instances/list
 
-3.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419
+2.- https://cloud.google.com/data-catalog/docs/concepts/iam?hl=es
 
-4.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
+3.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419#google-managed
+
+4.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419
+
+5.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
+
 
 ## Integrantes
 
