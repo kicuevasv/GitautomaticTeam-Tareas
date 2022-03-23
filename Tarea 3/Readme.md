@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # Tarea 3 - Comandos básicos de gcloud
 ### Indice
 1.- Listar Compute Engine
@@ -7,23 +8,51 @@
 3.- Listar buckets disponibles
 
 4.- Listar Service Accounts existentes en un proyecto
+=======
+**Tarea 3 - Comandos básicos de gcloud**
+===============================================
+>>>>>>> 05fe4fbfb426871d6fe3bf4a4448ab6932551596
 
-1.- Listar Compute Engine
+### 1.- Listar Compute Engine
 
 Comando
 
 **gcloud compute instances list**
+
+<img src="Comando1.PNG" width="450">
 
 URLs información
 
 **https://cloud.google.com/sdk/gcloud/reference/compute/instances/list**
 
 
-2.- Listar IP’s en uso, existentes o reservadas
+### 2.- Listar IP’s en uso, existentes o reservadas
 
-3.- Listar buckets disponibles
+### 3.- Listar buckets disponibles
 
-4.- Listar Service Accounts existentes en un proyecto
+Si no se especifica la URL este comando te lista todos los Cloud Storage buckets que se encuentren debajo de tu project ID:
+
+Comando
+
+**gsutil ls**
+
+
+<img src="all_buckets.png" width="450">
+
+Si tu especificas una o mas URLs, gsutil ls lista lo que hay en el bucket:
+
+Comando
+
+**gsutil ls gs://**
+
+
+<img src="one_buket.png" width="600">
+
+URLs información
+
+**https://cloud.google.com/storage/docs/gsutil/commands/ls?hl=es-419**
+
+### 4.- Listar Service Accounts existentes en un proyecto
 ## ¿Qué es una cuenta de servicio?
 Una cuenta de servicio es un tipo especial de cuenta que usa una carga de trabajo de aplicación o procesamiento, en lugar de una persona. Las cuentas de servicio se administran mediante la administración de identidades y accesos (IAM).
 
@@ -111,3 +140,5 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 2.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419#google-managed
 
 3.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419
+
+4.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
