@@ -51,8 +51,49 @@ Una cuenta de servicio es un tipo especial de cuenta que usa una carga de trabaj
      
      ##### service-PROJECT_NUMBER@compute-system.iam.gserviceaccount.com
      Esta cuenta de servicio está diseñada específicamente para que Compute Engine realice las tareas de servicio en tu proyecto. Se basa en la Política de IAM 
-
      
+### Terminología de IAM
+
+#### Permisos
+Se verifica en el entorno de ejecución para permitir que los usuarios realicen una operación o accedan a un recurso de Google Cloud.
+ A los usuarios no se les otorgan permisos directamente, sino que se les otorgan funciones que contienen permisos.
+ 
+##### Funciones
+Una función es una colección predefinida de permisos. 
+También se permiten las funciones personalizadas que consisten en una colección personalizada de permisos.
+
+#### Funciones predefinidas de Data Catalog
+Algunas funciones predefinidas de Data Catalog incluyen el administrador, el visualizador y el creador de plantillas 
+de etiquetas de Data Catalog. Algunas de estas funciones se describen en las secciones posteriores.
+
+#### Función de administrador
+La función roles/datacatalog.admin tiene acceso a todos los recursos de Data Catalog.
+Un administrador de Data Catalog puede agregar diferentes tipos de usuarios a un proyecto de Data Catalog.
+
+#### Función de administrador de datos
+
+#### Vista previa
+Esta función está sujeta a los Términos de las Ofertas de Disponibilidad Previa al Lanzamiento General de los Términos del Servicio de 
+Google Cloud. Es posible que las funciones anteriores a la disponibilidad general sean compatibles y
+que los cambios en estas funciones no sean compatibles con otras versiones anteriores. Para obtener más información, 
+consulta las descripciones de las fases de lanzamiento.
+
+#### La función roles/datacatalog.dataSteward 
+te permite agregar, editar o borrar los administradores de datos y la descripción general 
+de texto enriquecido para una entrada de datos, como una tabla de BigQuery.
+
+#### Función de visualizador
+A fin de simplificar el acceso a los recursos de Google Cloud, Data Catalog proporciona la función roles/datacatalog.
+viewer con permiso de lectura de metadatos para todos los recursos de Google Cloud catalogados.
+
+Esta función también otorga los permisos para ver las plantillas y las etiquetas de Data Catalog.
+
+Otorga la función de visualizador de Data Catalog en tu proyecto para permitir que los usuarios vean los recursos de Google Cloud en Data 
+Catalog.
+
+#### Función de creador de plantillas de etiquetas
+La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear plantillas de etiquetas.
 
 
-Al final, añadir las URLs de las cuales obtuvieron la información.
+### Fuentes de Información
+
