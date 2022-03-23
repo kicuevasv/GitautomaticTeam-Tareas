@@ -21,7 +21,8 @@ Una cuenta de servicio es un tipo especial de cuenta que usa una carga de trabaj
 ##### 2. Cuentas de servicio administradas por Google
 
 ### 1. Cuentas de servicio administradas por el usuario
-     Las cuentas de servicio administradas por el usuario incluyen cuentas de servicio nuevas que creas explícitamente y la cuenta de servicio predeterminada de            Compute Engine.
+     Las cuentas de servicio administradas por el usuario incluyen cuentas de servicio nuevas que creas explícitamente 
+     y la cuenta de servicio predeterminada de Compute Engine.
 
 #### Cuentas de servicio nuevas
      Usa IAM para crear y administrar tus propias cuentas de servicio. 
