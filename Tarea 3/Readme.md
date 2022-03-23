@@ -16,6 +16,26 @@ URLs información
 
 3.- Listar buckets disponibles
 
+Si no especificas la URL este comando te lista todos los Cloud Storage buckets que se encuentren debajo de tu project ID:
+
+Comando
+
+**gsutil ls**
+
+Ejemplo:
+
+Si tu especificas una o mas URLs, gsutil ls lista los buckets de cada lista dada:
+
+Comando
+
+**gsutil ls gs://**
+
+Ejemplo:
+
+URLs información
+
+**https://cloud.google.com/storage/docs/gsutil/commands/ls?hl=es-419**
+
 4.- Listar Service Accounts existentes en un proyecto
 ## ¿Qué es una cuenta de servicio?
 Una cuenta de servicio es un tipo especial de cuenta que usa una carga de trabajo de aplicación o procesamiento, en lugar de una persona. Las cuentas de servicio se administran mediante la administración de identidades y accesos (IAM).
