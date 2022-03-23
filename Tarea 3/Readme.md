@@ -56,8 +56,7 @@ Una cuenta de servicio es un tipo especial de cuenta que usa una carga de trabaj
 
 #### Permisos
 Se verifica en el entorno de ejecución para permitir que los usuarios realicen una operación o accedan a un recurso de Google Cloud.
- A los usuarios no se les otorgan permisos directamente, sino que se les otorgan funciones que contienen permisos.
- 
+ A los usuarios no se les otorgan permisos directamente, sin
 ##### Funciones
 Una función es una colección predefinida de permisos. 
 También se permiten las funciones personalizadas que consisten en una colección personalizada de permisos.
