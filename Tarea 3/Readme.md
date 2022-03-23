@@ -160,7 +160,7 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 <div align="center">
   
 |  Colaborador | Area | Actividad |
-| ------------ | ------------ || ------------ |
+| ------------ | ------------ | ------------ |
      
 | damador | Fabrica de pruebas |Documentacion|
 | eaalmonasis  |  Infra LINUX |Punto 2"Apoyo eve por errores"|
