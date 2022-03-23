@@ -159,6 +159,8 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 
 5.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
 
+6.- https://cloud.google.com/storage/docs/listing-buckets
+
 
 ## Integrantes
 
