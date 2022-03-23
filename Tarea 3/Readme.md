@@ -163,10 +163,10 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 <div align="center">
   
 |  Colaborador | Area | Actividad |
-| ------------ | ------------ || ------------ |
+| ------------ | ------------ | ------------ |
 | damador | Fabrica de pruebas |Documentacion|
 | eaalmonasis  |  Infra LINUX |Punto 2"Apoyo eve por errores"|
-| kicuevasv  | Base datos ORACLE |Punto 3, Carga de imagenes|
+| kicuevasv  | Base datos ORACLE |Punto 3 "Carga de imagenes"|
 | hfulloam  | HyperVisores|Punto 2 "Formato de documento"|
-| eczepedah  | Backup |Punto 4, Apoyo a Edgar A.|
+| eczepedah  | Backup |Punto 4 "Apoyo a Edgar A."|
 | jcmartinez  | IM PCs Novell |Punto 1|
