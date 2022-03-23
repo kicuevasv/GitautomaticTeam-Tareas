@@ -151,3 +151,15 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 
 4.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
 
+## Integrantes
+
+<div align="center">
+  
+|  Colaborador | Area |
+| ------------ | ------------ |
+| damador | Fabrica de pruebas |
+| eaalmonasis  |  Infra LINUX |
+| kicuevasv  | Base datos ORACLE |
+| hfulloam  | HyperVisores|
+| eczepedah  | Backup |
+| jcmartinez  | IM PCs Novell |
