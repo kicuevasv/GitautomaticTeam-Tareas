@@ -25,7 +25,6 @@ Comando
 
 **gsutil ls**
 
-Ejemplo:
 
 <img src="all_buckets.png" width="450">
 
@@ -35,7 +34,6 @@ Comando
 
 **gsutil ls gs://**
 
-Ejemplo:
 
 <img src="one_buket.png" width="600">
 
