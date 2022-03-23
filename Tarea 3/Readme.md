@@ -28,6 +28,27 @@ URLs información
 
 ### 2.- Listar IP’s en uso, existentes o reservadas
 
+
+Para enumerar las direcciones de un proyecto:
+
+**gcloud compute addresses list**
+
+Para enumerar los URI de todas las direcciones en un proyecto:
+
+**gcloud compute addresses list --uri**
+
+Para enumerar todas las direcciones globales en un proyecto:
+
+**gcloud compute addresses list --global**
+
+Para enumerar todas las direcciones de una region :
+
+**gcloud compute addresses list --filter=region:us-central1**
+URLs informacion:
+
+**https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list**
+
+
 ### 3.- Listar buckets disponibles
 
 Si no se especifica la URL este comando te lista todos los Cloud Storage buckets que se encuentren debajo de tu project ID:
