@@ -42,6 +42,8 @@ Para enumerar todas las direcciones globales en un proyecto:
 
 **gcloud compute addresses list --global**
 
+<img src="l_global.png" width="450">
+
 Para enumerar todas las direcciones de una region :
 
 **gcloud compute addresses list --filter=region:us-central1**
