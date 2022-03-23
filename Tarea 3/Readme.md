@@ -27,7 +27,7 @@ Ejemplo:
 
 <img src="all_buckets.png" width="450">
 
-Si tu especificas una o mas URLs, gsutil ls lista los buckets de cada lista dada:
+Si tu especificas una o mas URLs, gsutil ls lista lo que hay en el bucket:
 
 Comando
 
