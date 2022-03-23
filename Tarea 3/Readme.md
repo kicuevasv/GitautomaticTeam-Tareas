@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 # Tarea 3 - Comandos básicos de gcloud
 ### Indice
 1.- Listar Compute Engine
@@ -11,12 +9,10 @@
 =======
 **Tarea 3 - Comandos básicos de gcloud**
 ===============================================
->>>>>>> 05fe4fbfb426871d6fe3bf4a4448ab6932551596
 
 ### 1.- Listar Compute Engine
 
 Comando
-HOLA PRUEBA111111111111111111
 
 **gcloud compute instances list**
 
@@ -28,10 +24,6 @@ URLs información
 
 ### 2.- Listar IP’s en uso, existentes o reservadas
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 6f8e7e9e3cb9ccace2665558bca14ed47b2253e3
 Para enumerar las direcciones de un proyecto:
 
 **gcloud compute addresses list**
@@ -47,15 +39,6 @@ Para enumerar todas las direcciones globales en un proyecto:
 Para enumerar todas las direcciones de una region :
 
 **gcloud compute addresses list --filter=region:us-central1**
-<<<<<<< HEAD
-
-URLs informacion:
-=======
-URLs informacion:
-
->>>>>>> 6f8e7e9e3cb9ccace2665558bca14ed47b2253e3
-**https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list**
-
 
 ### 3.- Listar buckets disponibles
 
@@ -76,10 +59,6 @@ Comando
 
 
 <img src="one_buket.png" width="600">
-
-URLs información
-
-**https://cloud.google.com/storage/docs/gsutil/commands/ls?hl=es-419**
 
 ### 4.- Listar Service Accounts existentes en un proyecto
 ## ¿Qué es una cuenta de servicio?
@@ -161,8 +140,6 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 
 ### Fuentes de Información
 
-
-
 #### URLs  Service Accounts existentes en un proyecto
 1.- https://cloud.google.com/data-catalog/docs/concepts/iam?hl=es
 
@@ -170,8 +147,5 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 
 3.- https://cloud.google.com/compute/docs/access/service-accounts?hl=es-419
 
-<<<<<<< HEAD
 4.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
-=======
-4.- https://cloud.google.com/sdk/gcloud/reference/compute/addresses/list
->>>>>>> 6f8e7e9e3cb9ccace2665558bca14ed47b2253e3
+
