@@ -48,6 +48,8 @@ Para enumerar todas las direcciones de una region :
 
 **gcloud compute addresses list --filter=region:us-central1**
 
+<img src="region.png" width="450">
+
 ### 3.- Listar buckets disponibles
 
 Si no se especifica la URL este comando te lista todos los Cloud Storage buckets que se encuentren debajo de tu project ID:
