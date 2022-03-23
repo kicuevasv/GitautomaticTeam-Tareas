@@ -141,6 +141,8 @@ La función roles/datacatalog.tagTemplateCreator permite a los usuarios crear pl
 
 #### Comando list account
 
+##### gcloud iam service-accounts list 
+
 <img src="4.png" width="350">
 
 ### Fuentes de Información
