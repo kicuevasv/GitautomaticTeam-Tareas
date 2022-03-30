@@ -35,6 +35,6 @@
 ### (Debido a que mi actividad esta orientada diferente. Yo generaría sinergia con los equipos de Infraestructura)
 ### Automatizo pruebas aplicativas a nivel de interfase de usuario.
 ### Automatizo mensajeria aplicativa usada en aplicaciones Liverpool. Y simulo alta operación de usuarios.
-### (Siempre necesito de Sistema e Infra que me ayuden a monitorear el comportamiento de los recursos del SW y HW)
-### Solicitaria a Infra, escribieran en un archivo, información de recursos de CPU, MEM, Threads, etc, de los equipos donde se ejecuta la prueba. Puedo rescatar esa información para generar reportes de comportamiento de recursos.
+### (Siempre necesito de las áreas de Sistemas e Infraestructura que me ayuden a monitorear el comportamiento de los recursos del SW y HW)
+### Solicitaria a Infra, escribieran en un archivo, información de recursos de CPU, MEM, Threads, etc, sensada cada x-tiempo de los equipos donde se ejecuta la prueba. Puedo rescatar esa información para generar reportes de comportamiento de recursos.
 
