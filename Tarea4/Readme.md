@@ -23,5 +23,12 @@
 ### Capacidades Front
 ###
 
+## Juan Carlos Martínez
+
+### Instalacion de paquetes servidores Linux
+### Depuracion de archivos servidores Linux
+### Estado de procesos servidores Linux
+### Revision de LOG servidores Linux
+### Reinicio programado servidores Linux
 
 
