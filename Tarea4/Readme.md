@@ -26,7 +26,7 @@ Consejo: Todos los procesos manuales que sean repetitivos son los que tienen má
 ### Instalación sw para app
 ### Instalación sw para BD
 ### Instalación sw para BDtsm
-### 
+### Capacidades Front
 ###
 
 
